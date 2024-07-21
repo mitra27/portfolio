@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body, html{
+            height: 100%;
+            margin: 0;
+        }
+        
+        .bg {
+          background-image: url("./white-particle-lines-futuristic-gradient-background_53876-102621.jpg");
+        
+          height: 100vh;
+          width: 100%;
+          overflow: hidden;
+        
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+    }    
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            
+        }
+    </style>
+</head>
+<body class="bg">
+    <h1>Feedback Form</h1>
+    <table>
+        <form>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="message">Suggestion:</label></td>
+                <td><textarea id="message" name="message" rows="4" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+    <script src="script.js"></script>
+    <!-- <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('contactForm');
+
+            form.addEventListener('submit', (event) => {
+                event.preventDefault();
+
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const suggestion = document.getElementById('message').value;
+
+                if (name && email && message) {
+                    alert(`Thank you for your message, ${name}!`);
+                    form.reset();
+                } else {
+                    alert('Please fill in all fields.');
+                }
+            });
+        });
+    </script> -->
+    <button class="lastbutton">
+        <a href="index.html" style="text-decoration: none;">Home</a>
+    </button>
+    
+</body>
+</html>

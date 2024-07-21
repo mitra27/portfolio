@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #B4D3B2;
+    color: #000000;
+    padding: 1rem 0;
+}
+/* #ab8282 */
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 40px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project {
+    background: #066076;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#about {
+    color: #a77575;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.button {
+    padding: 5px 30px 5px 30px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    border-radius: 10px;
+    background: none;
+    text-decoration: none;
+    border: none;
+    
+}
+
+.gap {
+    margin-right: 150px;
+    
+}
+
+.contact {
+    font-family: 'Times New Roman';
+}
+
+li:hover{
+    color: #000000;
+    background-color: #0739d0;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.lastbutton{
+    padding: 5px 30px 5px 30px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    border-radius: 10px;
+    background: none;
+    text-decoration: none;
+    border: none;
+}
+
+.projectfont{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
